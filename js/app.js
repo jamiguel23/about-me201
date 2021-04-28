@@ -12,3 +12,6 @@ if(answerOne === 'yes' || answerOne === 'y'){
   console.log('you are correct! I live in Seattle');
   alert('you are correct! I live in Seattle')
 } 
+
+let answerTwo = prompt(' Did I used to live in Los Angles, CA?').toLowerCase();
+console.log(answerTwo)
