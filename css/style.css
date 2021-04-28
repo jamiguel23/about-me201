@@ -1,3 +1,17 @@
 * {
     background-color: yellowgreen;
 }
+
+ul {
+    margin: 25px;
+    list-style-type: disc;
+}
+
+ol {
+    margin: 25px;
+    list-style:decimal
+}
+
+h1 {
+    font-size: 3em;
+}
