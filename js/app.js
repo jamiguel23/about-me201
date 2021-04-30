@@ -44,3 +44,5 @@ if(answerFive === 'yes' || answerFive === 'y'){
   // console.log('Yes, I am married. #marriedlife');
   alert('Yes, I am married. Good job ' + userName+ ' #marriedlife');
 }
+
+alert('Congrats ' + userName + '! Read more on this page to learn more about me' )
