@@ -2,6 +2,14 @@
     background-color: yellowgreen;
 }
 
+#headShot { 
+    margin: 22px;
+    border-radius: 70%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black; 
+
+}
 ul {
     margin: 25px;
     list-style-type: disc;

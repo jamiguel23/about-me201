@@ -45,4 +45,4 @@ if(answerFive === 'yes' || answerFive === 'y'){
   alert('Yes, I am married. Good job ' + userName+ ' #marriedlife');
 }
 
-alert('Congrats ' + userName + '! Read more on this page to learn more about me' )
+alert('Congrats ' + userName + '! Read more on this page to learn more about me' );
