@@ -44,7 +44,6 @@ if(answerFour === 'no' || answerFour === 'n'){
   score++;
 }
 
-
 let answerFive = prompt(' Am I married?').toLowerCase();
 
 if(answerFive === 'yes' || answerFive === 'y'){
@@ -55,11 +54,9 @@ if(answerFive === 'yes' || answerFive === 'y'){
 
 alert('Congrats ' + userName + '! Read more on this page to learn more about me' );
 
-
 // Lab 3
 // add 6th question
 alert(`Now we will pay a guessing game. You will guess a number between 1-20 and I will tell you if you are high or low. You have 4 guesses. GOOD LUCK!`)
-
 
 let attemptsRemaining =3;
 let attempts = 3;
@@ -83,19 +80,45 @@ for (let i =0; i<= attemptsRemaining; i++){
     alert(`Too high`);
   }
   // //respond if not correct and no guesses remain
-  if (i===attemptsRemaining - 0){
+  if (i===attemptsRemaining - 1){
     console.log(`The correct number is ${answerSix}`);
-    alert(`Sorry, all attempts are used.The correct number is ${answerSix}` );
+    alert(`Sorry, all attempts are used.The correct number is ${answerSix}`);
     break;
   }
 
 }
-
-
-
-
-
 // respond if correct AND guesses remain
 
+let count = 6;
+let attemptsQ7= 6;
+let answerCorrectly = false;
+
+
+
+while (count && !answerCorrectly){
+  let favFoods = ['tamale', 'ramen', 'chinese hot pot', 'japanese curry', 'brisket'];
+  let questionSeven = prompt( 'Guess one of my favorite foods').toLowerCase();
+  
+  for (let i = 0; i < favFoods.length; i++) { 
+    if (questionSeven === favFoods[i]) {
+      console.log('Correct!');
+      alert('Correct!');
+    answerCorrectly = true;
+    score++;
+    break;
+    //Something here isn't working correctly. Its running 5 times
+  } else if (questionSeven !== favFoods[i]);
+      console.log('Incorrect. Try again'); 
+      alert('Incorrect. Try again');
+}
+if (count === 1){
+  console.log('All attemps used. These answers would be correct: tamale, ramen,chinese hot pot, japanes curry, and brisket');
+  alert('All attemps used. These answers would be correct: tamale, ramen,chinese hot pot, japanes curry, and brisket');
+}
+count--
+}
+
+
 // increment score if answers correctly
-console.log(score);
+console.log(`Your score is ${score} out of 7` );
+alert(`Your score is ${score} out of 7` );
