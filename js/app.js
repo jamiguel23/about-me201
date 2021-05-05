@@ -5,7 +5,6 @@
 let score = 0;
 
 let userName = prompt('What is your name?');
-
 alert('Welcome ' + userName + '! Answer the following questions with yes/no or y/n');
 
 let questionOne = prompt(' Do I live in Seattle?').toLowerCase();
@@ -56,7 +55,7 @@ alert('Congrats ' + userName + '! Read more on this page to learn more about me'
 
 // Lab 3
 // add 6th question
-alert(`Now we will pay a guessing game. You will guess a number between 1-20 and I will tell you if you are high or low. You have 4 guesses. GOOD LUCK!`)
+alert(`Now we will pay a guessing game. You will guess a number between 1-20 and I will tell you if you are high or low. You have 4 guesses. GOOD LUCK!`);
 
 let attemptsRemaining =3;
 let attempts = 3;
@@ -99,7 +98,7 @@ while (count && !answerCorrectly){
   let favFoods = ['tamale', 'ramen', 'chinese hot pot', 'japanese curry', 'brisket'];
   let questionSeven = prompt( 'Guess one of my favorite foods').toLowerCase();
   
-  for (let i = 0; i < favFoods.length; i++) { 
+  for (let i = 0; i < favFoods.length; i++) {
     if (questionSeven === favFoods[i]) {
       console.log('Correct!');
       alert('Correct!');
@@ -115,7 +114,7 @@ if (count === 1){
   console.log('All attemps used. These answers would be correct: tamale, ramen,chinese hot pot, japanes curry, and brisket');
   alert('All attemps used. These answers would be correct: tamale, ramen,chinese hot pot, japanes curry, and brisket');
 }
-count--
+count--;
 }
 
 
