@@ -112,7 +112,7 @@ let answerCorrectly = false;
 while (count && !answerCorrectly){
   let favFoods = ['tamale', 'ramen', 'chinese hot pot', 'japanese curry', 'brisket'];
   let questionSeven = prompt( 'Guess one of my favorite foods').toLowerCase();
-  
+
   for (let i = 0; i < favFoods.length; i++) {
     if (questionSeven === favFoods[i]) {
       console.log('Correct!');
@@ -127,7 +127,7 @@ while (count && !answerCorrectly){
 }
 if (count === 1){
   console.log('All attemps used. These answers would be correct: tamale, ramen,chinese hot pot, japanes curry, and brisket');
-  alert('All attemps used. These answers would be correct: tamale, ramen,chinese hot pot, japanes curry, and brisket');
+  alert('All attemps used. These answers would be correct: tamale, ramen, chinese hot pot, japanese curry, and brisket');
 }
 count--;
 }
