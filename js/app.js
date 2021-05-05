@@ -69,28 +69,29 @@ alert('Congrats ' + userName + '! Read more on this page to learn more about me'
 
 // Lab 3
 // add 6th question
-alert(`Now we will pay a guessing game. You will guess a number between 1-20 and I will tell you if you are high or low. You have 4 guesses. GOOD LUCK!`);
+alert('Now we will pay a guessing game. You will guess a number between 1-20 and I will tell you if you are high or low. You have 4 guesses. GOOD LUCK!');
 
 let attemptsRemaining =3;
 let attempts = 3;
 let answerSix = 12;
-//created for loop 
+// created for loop 
+
 for (let i =0; i<= attemptsRemaining; i++){
   let questionSix = parseInt(prompt('Guess a number between 1-20'));
   if( questionSix === answerSix) {
-    console.log(`You are correct!`);
-    alert(`You are correct!`);
+    console.log('You are correct!');
+    alert('You are correct!');
     score++;
     break;
     // respond if too low
   } else if(questionSix < answerSix){
-    console.log(`Too low`);
-    alert(`Too low`);
+    console.log('Too low');
+    alert('Too low');
 
     // respond if too high
   } else if(questionSix > answerSix){
-    console.log(`Too high`);
-    alert(`Too high`);
+    console.log('Too high');
+    alert('Too high');
   }
   // //respond if not correct and no guesses remain
   if (i===attemptsRemaining - 1){
