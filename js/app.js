@@ -7,50 +7,64 @@ let score = 0;
 let userName = prompt('What is your name?');
 alert('Welcome ' + userName + '! Answer the following questions with yes/no or y/n');
 
-let questionOne = prompt(' Do I live in Seattle?').toLowerCase();
+function q1(){
+  let questionOne = prompt(' Do I live in Seattle?').toLowerCase();
 
-if(questionOne === 'yes' || questionOne === 'y'){
-  // console.log('you are correct! I live in Seattle');
-  alert('you are correct! I live in Seattle');
-  score++;
-// // Here I am starting to add more logic and an eventual loop
-// // }if(answerOne === 'no'){
-// //   console.log('try again');
-// //   alert('Wrong! try again.');
+  if(questionOne === 'yes' || questionOne === 'y'){
+    // console.log('you are correct! I live in Seattle');
+    alert('you are correct! I live in Seattle');
+    score++;
+  // // Here I am starting to add more logic and an eventual loop
+  // // }if(answerOne === 'no'){
+  // //   console.log('try again');
+  // //   alert('Wrong! try again.');
+  }
 }
+q1()
 
-let questionTwo = prompt(' Did I used to live in San Jose, CA?').toLowerCase();
+function q2(){
+  let questionTwo = prompt(' Did I used to live in San Jose, CA?').toLowerCase();
 
-if(questionTwo === 'no' || questionTwo === 'n'){
-  // console.log('Correct! I did NOT ever live in San Jose, CA. I have lived in Oakland, CA');
-  alert( 'Correct! I did NOT ever live in San Jose, CA. I have lived in Oakland, CA');
-  score++;
+  if(questionTwo === 'no' || questionTwo === 'n'){
+    // console.log('Correct! I did NOT ever live in San Jose, CA. I have lived in Oakland, CA');
+    alert( 'Correct! I did NOT ever live in San Jose, CA. I have lived in Oakland, CA');
+    score++;
+  }
 }
+q2()
 
-let questionThree = prompt(' Do I work at Zillow?').toLowerCase();
+function q3(){
+  let questionThree = prompt(' Do I work at Zillow?').toLowerCase();
 
-if(questionThree === 'yes' || questionThree === 'y'){
-  // console.log('DING DING DING! I DO work at Zillow');
-  alert('DING DING DING! I DO work at Zillow');
-  score++;
+  if(questionThree === 'yes' || questionThree === 'y'){
+    // console.log('DING DING DING! I DO work at Zillow');
+    alert('DING DING DING! I DO work at Zillow');
+    score++;
+  }
 }
+q3()
 
-let answerFour = prompt(' Was Chief Seattle the name of my High School?').toLowerCase();
+function q4(){
+  let answerFour = prompt(' Was Chief Seattle the name of my High School?').toLowerCase();
 
-if(answerFour === 'no' || answerFour === 'n'){
-  // console.log('YOU ARE CORRECT! The name if my high school is Chief Sealth');
-  alert('YOU ARE CORRECT! The name if my high school is Chief Sealth');
-  score++;
+  if(answerFour === 'no' || answerFour === 'n'){
+    // console.log('YOU ARE CORRECT! The name if my high school is Chief Sealth');
+    alert('YOU ARE CORRECT! The name if my high school is Chief Sealth');
+    score++;
+  }
 }
+q4()
 
-let answerFive = prompt(' Am I married?').toLowerCase();
+function q5(){
+  let answerFive = prompt(' Am I married?').toLowerCase();
 
-if(answerFive === 'yes' || answerFive === 'y'){
-  // console.log('Yes, I am married. #marriedlife');
-  alert('Yes, I am married. Good job ' + userName+ ' #marriedlife');
-  score++;
+  if(answerFive === 'yes' || answerFive === 'y'){
+    // console.log('Yes, I am married. #marriedlife');
+    alert('Yes, I am married. Good job ' + userName+ ' #marriedlife');
+    score++;
+  }
 }
-
+q5()
 alert('Congrats ' + userName + '! Read more on this page to learn more about me' );
 
 // Lab 3
