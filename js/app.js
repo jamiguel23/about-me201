@@ -22,14 +22,16 @@ function q1(){
 }
 q1()
 
-// let questionTwo = prompt(' Did I used to live in San Jose, CA?').toLowerCase();
+function q2(){
+  let questionTwo = prompt(' Did I used to live in San Jose, CA?').toLowerCase();
 
-// if(questionTwo === 'no' || questionTwo === 'n'){
-//   // console.log('Correct! I did NOT ever live in San Jose, CA. I have lived in Oakland, CA');
-//   alert( 'Correct! I did NOT ever live in San Jose, CA. I have lived in Oakland, CA');
-//   score++;
-// }
-
+  if(questionTwo === 'no' || questionTwo === 'n'){
+    // console.log('Correct! I did NOT ever live in San Jose, CA. I have lived in Oakland, CA');
+    alert( 'Correct! I did NOT ever live in San Jose, CA. I have lived in Oakland, CA');
+    score++;
+  }
+}
+q2()
 // let questionThree = prompt(' Do I work at Zillow?').toLowerCase();
 
 // if(questionThree === 'yes' || questionThree === 'y'){
