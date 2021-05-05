@@ -42,16 +42,18 @@ function q3(){
     score++;
   }
 }
-q3()
+// q3()
 
-// let answerFour = prompt(' Was Chief Seattle the name of my High School?').toLowerCase();
+function q4(){
+  let answerFour = prompt(' Was Chief Seattle the name of my High School?').toLowerCase();
 
-// if(answerFour === 'no' || answerFour === 'n'){
-//   // console.log('YOU ARE CORRECT! The name if my high school is Chief Sealth');
-//   alert('YOU ARE CORRECT! The name if my high school is Chief Sealth');
-//   score++;
-// }
-
+  if(answerFour === 'no' || answerFour === 'n'){
+    // console.log('YOU ARE CORRECT! The name if my high school is Chief Sealth');
+    alert('YOU ARE CORRECT! The name if my high school is Chief Sealth');
+    score++;
+  }
+}
+q4()
 // let answerFive = prompt(' Am I married?').toLowerCase();
 
 // if(answerFive === 'yes' || answerFive === 'y'){
