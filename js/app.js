@@ -20,7 +20,7 @@ function q1(){
   // //   alert('Wrong! try again.');
   }
 }
-q1()
+q1();
 
 function q2(){
   let questionTwo = prompt(' Did I used to live in San Jose, CA?').toLowerCase();
@@ -31,7 +31,7 @@ function q2(){
     score++;
   }
 }
-q2()
+q2();
 
 function q3(){
   let questionThree = prompt(' Do I work at Zillow?').toLowerCase();
@@ -42,7 +42,7 @@ function q3(){
     score++;
   }
 }
-q3()
+q3();
 
 function q4(){
   let answerFour = prompt(' Was Chief Seattle the name of my High School?').toLowerCase();
@@ -53,7 +53,7 @@ function q4(){
     score++;
   }
 }
-q4()
+q4();
 
 function q5(){
   let answerFive = prompt(' Am I married?').toLowerCase();
@@ -64,7 +64,7 @@ function q5(){
     score++;
   }
 }
-q5()
+q5();
 alert('Congrats ' + userName + '! Read more on this page to learn more about me' );
 
 // Lab 3
