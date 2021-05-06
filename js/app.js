@@ -1,6 +1,6 @@
 'use strict';
 
-// console.log('wazzzzzup world?');
+console.log('wazzzzzup world?');
 
 let score = 0;
 
@@ -14,10 +14,10 @@ function q1() {
     // console.log('you are correct! I live in Seattle');
     alert('you are correct! I live in Seattle');
     score++;
-    // // Here I am starting to add more logic and an eventual loop
-    // // }if(answerOne === 'no'){
-    // //   console.log('try again');
-    // //   alert('Wrong! try again.');
+  }
+  else if (questionOne === 'no' || questionOne === 'n') {
+    // console.log('sorry try again');
+    alert('sorry try again');
   }
 }
 q1();
@@ -30,6 +30,10 @@ function q2() {
     alert('Correct! I did NOT ever live in San Jose, CA. I have lived in Oakland, CA');
     score++;
   }
+  else if (questionTwo === 'yes' || questionTwo === 'y') {
+    // console.log('sorry try again');
+    alert('sorry try again');
+  }
 }
 q2();
 
@@ -40,6 +44,10 @@ function q3() {
     // console.log('DING DING DING! I DO work at Zillow');
     alert('DING DING DING! I DO work at Zillow');
     score++;
+  }
+  else if (questionThree === 'no' || questionThree === 'n') {
+    // console.log('sorry try again');
+    alert('sorry try again');
   }
 }
 q3();
@@ -52,6 +60,10 @@ function q4() {
     alert('YOU ARE CORRECT! The name if my high school is Chief Sealth');
     score++;
   }
+  else if (answerFour === 'yes' || answerFour === 'y') {
+    // console.log('sorry try again');
+    alert('sorry try again');
+  }
 }
 q4();
 
@@ -62,6 +74,10 @@ function q5() {
     // console.log('Yes, I am married. #marriedlife');
     alert('Yes, I am married. Good job ' + userName + ' #marriedlife');
     score++;
+  }
+  else if (answerFive === 'no' || answerFive === 'n') {
+    // console.log('sorry try again');
+    alert('sorry try again');
   }
 }
 q5();
@@ -104,7 +120,7 @@ for (let i = 0; i <= attemptsRemaining; i++) {
 // respond if correct AND guesses remain
 
 let count = 6;
-let attemptsQ7 = 6;
+// let attemptsQ7 = 6;
 let answerCorrectly = false;
 
 
@@ -120,8 +136,7 @@ while (count && !answerCorrectly) {
       answerCorrectly = true;
       score++;
       break;
-      //Something here isn't working correctly. Its running 5 times
-    } else if (questionSeven !== favFoods[i]) {
+    } else if(questionSeven !== favFoods[i]); {
       console.log('Incorrect. Try again');
       alert('Incorrect. Try again');
     }
@@ -134,6 +149,6 @@ while (count && !answerCorrectly) {
 }
 
 
-// increment score if answers correctly
+// // increment score if answers correctly
 console.log(`Your score is ${score} out of 7`);
 alert(`Your score is ${score} out of 7`);
