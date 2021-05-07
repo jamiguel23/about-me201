@@ -3,7 +3,7 @@
 }
 
 #headShot { 
-    margin: 22px;
+    margin: 100px;
     border-radius: 45%;
     border-style: solid;
     border-width: 3px;
@@ -17,7 +17,7 @@ p#intro {
     border-color: black;
     max-width: 450px;
 }
- ul#jobHis{
+ ul#jobHis, #favFoods{
     border-style: solid;
     border-width: 3px;
     border-color: black;
@@ -32,12 +32,12 @@ p#intro {
 }
 
 ul {
-    margin: 25px;
+    /* margin: */
     list-style-type: disc;
 }
 
 ol {
-    margin: 25px;
+    /* margin: 25px; */
     list-style:decimal
 }
 
@@ -47,4 +47,17 @@ h1 {
 
 h2 {
     margin: 25px;
+}
+/* body {
+    /* position: relative;
+    left: 360px; */
+    
+} */
+
+main {
+    border-color: orangered;
+    border-width: 3px;
+    border-style: solid;
+    position: relative;
+    left: 360px;
 }
