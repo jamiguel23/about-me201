@@ -1,34 +1,25 @@
 * {
-    background-color: forestgreen;
+    background-color: #dd7035;
 }
 
-#headShot { 
-    margin: 100px;
-    border-radius: 45%;
+#headShot {
+    border-radius: 50%;
     border-style: solid;
     border-width: 3px;
     border-color: black; 
-
+    padding: 50px;
+    margin: 125px;
 }
 
-p#intro {
+p#intro, ul#jobHis, #education, #favFoods{
     border-style: solid;
     border-width: 3px;
     border-color: black;
-    max-width: 450px;
-}
- ul#jobHis, #favFoods{
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-    max-width: 450px;
-}
-
-#education{
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-    max-width: 450px;
+    border-radius: 50%;
+    max-width: 550px;
+    max-height: 150px;
+    padding: 75px;
+    text-align: center;
 }
 
 ul {
@@ -52,12 +43,16 @@ h2 {
     /* position: relative;
     left: 360px; */
     
-} */
+
 
 main {
-    border-color: orangered;
+    border-color: #e8e6e7;
     border-width: 3px;
     border-style: solid;
+    border-radius: 25%;
     position: relative;
-    left: 360px;
+    max-width: 37%;
+    left: 32%;
+    padding: 50px;
+   
 }
