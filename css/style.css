@@ -7,8 +7,10 @@
     border-style: solid;
     border-width: 3px;
     border-color: black; 
+    max-width: fit-content;
+    max-height: fit-content;
     padding: 50px;
-    margin: 125px;
+    margin: 100px;
 }
 
 p#intro, ul#jobHis, #education, #favFoods{
@@ -16,9 +18,10 @@ p#intro, ul#jobHis, #education, #favFoods{
     border-width: 3px;
     border-color: black;
     border-radius: 50%;
-    max-width: 550px;
-    max-height: 150px;
-    padding: 75px;
+    max-width: fit-content;
+    max-height: fit-content;
+    padding: 100px;
+    margin: auto;
     text-align: center;
 }
 
@@ -39,11 +42,6 @@ h1 {
 h2 {
     margin: 25px;
 }
-/* body {
-    /* position: relative;
-    left: 360px; */
-    
-
 
 main {
     border-color: #e8e6e7;
@@ -51,8 +49,7 @@ main {
     border-style: solid;
     border-radius: 25%;
     position: relative;
-    max-width: 37%;
-    left: 32%;
-    padding: 50px;
-   
+    max-width: 1000px;
+    left: 20%;
+    padding: 10px;
 }
