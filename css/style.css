@@ -26,12 +26,10 @@ p#intro, ul#jobHis, #education, #favFoods{
 }
 
 ul {
-    /* margin: */
     list-style-type: disc;
 }
 
 ol {
-    /* margin: 25px; */
     list-style:decimal
 }
 
